@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '';
-    if (score <= 99) return '';
-    if (score <= 149) return '';
-    if (score <= 199) return '';
-    return '';
+    if (score <= 49) return 'xxx';
+    if (score <= 99) return 'xxx';
+    if (score <= 149) return 'xxx';
+    if (score <= 199) return 'xxx';
+    return 'xxx';
 }
 
 function toStr(obj) {
